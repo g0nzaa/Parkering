@@ -165,7 +165,7 @@ background-image:url("../Image/kontakt.jpg");
 /* Main-footer*/
 #main-footer{
     background:darkblue;
-    color:beige;
+    color:white;
     text-align:center;
     padding:5px;
     font-family:'Times New Roman', Times, serif;
@@ -176,7 +176,14 @@ background-image:url("../Image/kontakt.jpg");
 }
 
 
+/* Media */
+@media(max-width 600px){
+  p{
+    font-size: 1.25rem;
 
+   }
+}
+    
 
 
 
